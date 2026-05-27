@@ -6,7 +6,7 @@ const { sequelize } = require("./config/db");
 
 const startTrackingCron = require("./cron/trackingCron");
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 3001;
 
 sequelize
   .sync({ alter: true })
